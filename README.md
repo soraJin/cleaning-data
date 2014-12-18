@@ -1,6 +1,6 @@
 cleaning-data
 =============
-# as the files are originally matlab file, transfer the form and read them in R by using packages R.matlab
+# as the files are originally matlab files, transfer the form and read them in R by using packages R.matlab
 # to get the mean and std related columns, use grep function to select those columns in both test and train data frames
 # the next step is to combine them into one large data frame
 # use the label names in feature txt to label the columns
