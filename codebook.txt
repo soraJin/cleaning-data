@@ -1,0 +1,13 @@
+the test/train data is transferred as test/train data frame
+the activities are transferred into character,as type(walking,walkingup,etc)
+the related mean and standard deviation columns in test/train are labeled as testsub/trainsub, each has 79 columns
+typesub is a character which contains all the feature names related to mean and standard deviation
+in order to better understand the columns, testsub/trainsub are named after typesub
+
+testmer/trainmer is a data frame which combines the mean/std related columns and the number of types(1,2,3,4,5,6)
+
+meanab is the mean of each mean/std related columns(i.e testmer/trainmer)
+meantotal is a data frame which contains all the means
+
+df is a new data frame created to store the tidy data. number and result are two vectors which will be used in df.
+df contains 4 columns, 1st column is the row.names, 2nd column is the represent number of different activities, 3rd column is the corresponding activitiy, 4th column is the mean of each mean/std related column.
